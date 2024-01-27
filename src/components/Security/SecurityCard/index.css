@@ -1,0 +1,21 @@
+.security-card__title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 25px;
+    text-align: center;
+}
+.security-card {
+    max-width: 380px;
+    width: 95%;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 20px;
+}
+@media screen and (min-width: 1441px){
+    .security-card {
+        max-width: initial;
+    }
+}

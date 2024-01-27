@@ -1,0 +1,14 @@
+.investor-card {
+    max-width: 380px;
+    width: 95%;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+@media screen and (min-width: 1441px){
+    .investor-card {
+        max-width: initial;
+    }
+}

@@ -1,0 +1,32 @@
+.features__button {
+    min-width: 100px;
+    min-height: 32px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features {
+    margin-bottom: 110px;
+}
+.margin-top-20-xs, .margin-top-40-xs {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1199px){
+    .features__buttons {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .margin-top-20-xs {
+        margin-top: 20px;
+    }
+    .margin-top-40-xs {
+        margin-top: 40px;
+    }
+}

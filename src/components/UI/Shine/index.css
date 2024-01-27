@@ -1,0 +1,8 @@
+.shine {
+    position: absolute;
+    width: 312px;
+    height: 335px;
+    opacity: 0.35;
+    filter: blur(200px);
+    border-radius: 75px;
+}

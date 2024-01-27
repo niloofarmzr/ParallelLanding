@@ -1,0 +1,10 @@
+.media-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #6e6f74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

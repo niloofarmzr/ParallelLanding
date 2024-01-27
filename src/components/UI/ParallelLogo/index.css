@@ -1,0 +1,21 @@
+.logo {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo > span {
+    opacity: 0.8;
+    font-weight: 700;
+    background: -webkit-linear-gradient(140deg, #fff 0%, transparent 150%);
+    background: linear-gradient(140deg, #fff 0%, transparent 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo > span {
+    position: relative;
+    left: -15px;
+}
+
+.logo img {
+    width: 86px;
+}

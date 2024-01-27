@@ -1,0 +1,35 @@
+.gradient-button__container {
+    position: relative;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    box-sizing: initial;
+}
+.gradient-button {
+    cursor: pointer;
+    background: radial-gradient(94.64% 194.85% at 23.27% 83.93%, #20D2C8 6.56%, #137BB6 84.69%);
+    border-radius: 18px;
+    padding: 17px 33px;
+    filter: blur(1px);
+    box-shadow: -8px -4px 13px rgba(90, 98, 104, 0.42), 10px 1px 40px rgba(0, 0, 0, 0.59);
+}
+.gradient-button__title {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+.gradient-button__transparent-title {
+    opacity: 0;
+}
+.gradient-button__border-wrap {
+    border-radius: 18px;
+    background: radial-gradient(103.96% 338.17% at 3.47% 100%, #59EFE6 14.41%, #1456B9 76%);
+    padding: 2px;
+}

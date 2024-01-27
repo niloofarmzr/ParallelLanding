@@ -1,0 +1,35 @@
+.email  {
+    max-width: 790px;
+    width: 100%;
+}
+.email input {
+    height: 62px;
+    background-color: transparent;
+    border: none;
+    padding: 0 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.email input:focus {
+    outline: none!important;
+}
+.email > div {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.email__submit-button {
+    float: right;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 767px){
+    .email__submit-button {
+        float: none;
+        padding-right: 0;
+        margin: 40px 0 0;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,127 @@
+.blurry-button__container {
+    position: relative;
+    z-index: 1;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    user-select: none;
+}
+.blurry-button {
+    cursor: pointer;
+    background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 18px;
+    width: 270px;
+    height: 80px;
+}
+.blurry-button__title {
+    opacity: 0.74;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    animation: slideOut 20s linear infinite;
+}
+
+.blurry-button__border-wrap {
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.27) 0%, transparent 100%);
+    padding: 2px;
+    position: relative;
+}
+.blurry-button__title {
+    white-space: nowrap;
+}
+.blurry-button__title > div {
+    display: inline-flex;
+    width: 270px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+    }
+    22% {
+        transform: translateX(-270px);
+    }
+    42% {
+        transform: translateX(-270px);
+    }
+    44% {
+        transform: translateX(-540px);
+    }
+    64% {
+        transform: translateX(-540px);
+    }
+    66% {
+        transform: translateX(-270px);
+    }
+    86% {
+        transform: translateX(-270px);
+    }
+    88% {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 470px){
+    .blurry-button, .blurry-button__border-wrap, .blurry-button__title > div, .blurry-button__container {
+        width: 100%;
+    }
+    .blurry-button__title {
+        width: 100%;
+        position: absolute;
+        animation: slideOutMobile 20s linear infinite;
+    }
+    .blurry-button__container {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .blurry-button,  .blurry-button__title > div {
+        height: 56px;
+    }
+}
+
+@keyframes slideOutMobile {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+    }
+    22% {
+        transform: translateX(-100%);
+    }
+    42% {
+        transform: translateX(-100%);
+    }
+    44% {
+        transform: translateX(-200%);
+    }
+    64% {
+        transform: translateX(-200%);
+    }
+    66% {
+        transform: translateX(-100%);
+    }
+    86% {
+        transform: translateX(-100%);
+    }
+    88% {
+        transform: translateX(0);
+    }
+}

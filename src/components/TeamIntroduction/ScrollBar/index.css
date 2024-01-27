@@ -1,0 +1,18 @@
+#timeline{
+    position: relative;
+    width: 255px;
+    height: 14px;
+    margin: 0 auto;
+    background: #323338;
+    box-shadow: inset 0px 2px 5px rgba(35, 35, 42, 0.5), inset 0px -3px 11px rgba(35, 35, 42, 0.5);
+    border-radius: 20px;
+}
+
+#handle{
+    margin-top: 1px;
+    width: 100px;
+    height: 9px;
+    background: radial-gradient(100% 711.11% at 100% 50%, #50ABA3 20.22%, #82BFBA 100%);
+    box-shadow: -1px -2px 4px rgba(105, 105, 105, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.35), inset -4px -4px 4px rgba(231, 231, 231, 0.25), inset 2px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}

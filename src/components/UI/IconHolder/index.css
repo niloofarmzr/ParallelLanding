@@ -1,0 +1,29 @@
+.icon-holder {
+    border-radius: 50%;
+    /*background: radial-gradient(102.04% 102.04% at 100% 100%, #2CCBC2 0%, #1D46D6 100%);*/
+    background: linear-gradient(45deg, #2CCBC2 0%, #1D46D6 100%);
+    box-shadow: -5px -5px 15px rgba(143, 201, 255, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-holder__border-wrap {
+    padding: 2px;
+    background: linear-gradient(-110deg, #29C9BF 0%, #1D46D8 100%);
+    border-radius: 50%;
+    box-sizing: initial;
+}
+
+.icon-holder img {
+    height: 60px;
+}
+
+@media screen and (max-width: 1199px){
+    .icon-holder, .icon-holder__border-wrap  {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .icon-holder img {
+        height: 40px;
+    }
+}

@@ -1,0 +1,4 @@
+.floating-circle {
+    border-radius: 50%;
+    background: linear-gradient(55deg, #2ccbb5 0%, #1D77FF 100%);
+}

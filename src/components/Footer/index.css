@@ -1,0 +1,27 @@
+.footer {
+    margin: 0 auto 40px;
+}
+
+.footer__in-touch h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+}
+.footer__in-touch p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    opacity: 0.8;
+    margin: 30px 0 40px;
+}
+@media screen and (max-width: 767px){
+    .footer__in-touch p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer__gray-box {
+        padding: 30px 30px 60px;
+    }
+}

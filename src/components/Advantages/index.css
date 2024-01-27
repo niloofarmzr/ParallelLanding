@@ -1,0 +1,92 @@
+.advantages {
+    position: relative;
+    height: 550px;
+    margin-bottom: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/src/assets/images/advantages/Prism.svg");
+}
+.advantages h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+.advantages__ethereum {
+    max-width: 248px;
+    margin: 0 auto;
+    float: right;
+}
+
+.advantages__text {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.advantages__shine {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -100px;
+    background: #1D77FF;
+    filter: blur(100px)!important;
+}
+
+.advantages__shine-2 {
+    background: rgba(29, 187, 255, 0.5);
+    top: -100px;
+    right: -150px;
+    filter: blur(100px)!important;
+}
+
+@media screen and (min-width: 1441px){
+    .advantages {
+        height: 800px;
+        background-size: cover;
+        background-position: -150px;
+    }
+    .advantages__text {
+        font-size: 1.5vw;
+        line-height: 35px;
+    }
+    .advantages__ethereum {
+        max-width: 50%;
+    }
+    .advantages__row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .advantages {
+        background-position: -8px;
+        background-size: 835px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .advantages__ethereum {
+        float: none;
+        margin: 40px 0 0;
+    }
+
+    .advantages__polkadot {
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .advantages {
+        background-position: -35px;
+        background-size: 530px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .advantages {
+        background-position: center;
+        background-size: contain;
+    }
+}

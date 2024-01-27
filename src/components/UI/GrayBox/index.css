@@ -1,0 +1,12 @@
+.gray-box {
+    background: radial-gradient(137.01% 137.01% at 90.28% 105.51%, #36373E 0%, #4F5057 95.01%);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.1), 7px 7px 22px rgba(0, 0, 0, 0.31), inset 0px 4px 4px rgba(255, 255, 255, 0.14);
+    border-radius: 48px;
+    padding: 30px;
+}
+.gray-box-2 {
+    background: radial-gradient(137.01% 137.01% at 90.28% 105.51%, #36373E 0%, #38393F 95.01%);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.06), 7px 7px 22px rgba(0, 0, 0, 0.31), inset 0px 4px 4px rgba(255, 255, 255, 0.09);
+    border-radius: 48px;
+    padding: 30px;
+}

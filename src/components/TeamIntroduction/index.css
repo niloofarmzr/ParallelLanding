@@ -1,0 +1,36 @@
+.team-introduction {
+    margin-bottom: 162px;
+    position: relative;
+    z-index: 2;
+}
+.team-introduction__lower-slide {
+    margin-top: 60px;
+}
+
+.team-introduction__slider-inner {
+    /*height:550px;*/
+}
+
+.team-introduction__slider-inner {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    white-space: nowrap;
+    padding-bottom: 50px;
+    scroll-behavior: smooth;
+}
+.team-introduction__slider-inner::-webkit-scrollbar {
+    display: none;
+}
+
+.team-introduction__slider-inner {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@media screen and (max-width: 767px){
+    .team-introduction {
+        margin-bottom: 100px;
+    }
+}

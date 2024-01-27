@@ -1,0 +1,19 @@
+.footer__items {
+    margin: 50px 20px 70px;
+}
+.footer__item {
+    display: inline-block;
+    margin-right: 40px;
+}
+.footer__social-media {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .footer__items {
+        margin: 30px 20px 60px;
+    }
+    .footer__social-media {
+        margin-left: 0;
+    }
+}

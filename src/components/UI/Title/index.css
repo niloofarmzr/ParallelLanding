@@ -1,0 +1,32 @@
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 48px;
+}
+
+.second-title {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 1441px){
+    .title {
+        font-size: 3vw;
+    }
+    .second-title {
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 1199px){
+    .title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 767px){
+    .title {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+.direction-rtl {
+    direction: rtl;
+}
+.margin-0-auto {
+    margin: 0 auto;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-40 {
+    margin-top: 40px;
+}
+.padding-5 {
+    padding: 5px 0;
+}
+.hide-xs-down {
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    .hide-xs-up {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .hide-xs-down {
+        display: none;
+    }
+    .hide-xs-up {
+        display: block;
+    }
+}
